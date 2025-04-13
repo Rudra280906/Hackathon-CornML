@@ -1,24 +1,11 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
-import torchvision.transforms as transforms
+from torch.utils.data import Dataset
 from torchvision.datasets import ImageFolder
 import timm
-import math
-
 import pandas as pd
-import matplotlib.pyplot as plt
-import cv2 as cv
-import rasterio
-import os
-import glob
-import warnings
-import random
 import numpy as np
-import torchdata.stateful_dataloader
-import csv
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 
